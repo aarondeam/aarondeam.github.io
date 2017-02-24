@@ -2,17 +2,17 @@
   font-family: "PT Serif", serif;
 }
 
-.navbaroveride {
+/*.navbaroveride {
   background-color: #807533;
-}
+}*/
 
 .containeroverride {
-  background-color: #ebd1b8;
+  /* background-color: #ebd1b8; */
   margin-top: 3em;
 }
 
 .jumbotronoverride {
-  background-color: #d39600;
+  /* background-color: #d39600; */
   margin-top: 2em;
 }
 
@@ -20,6 +20,6 @@
   margin-bottom: 1em;
 }
 
-.welloverride {
+/* .welloverride {
   background: #d39600;
-}
+} */
