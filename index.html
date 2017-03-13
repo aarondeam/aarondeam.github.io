@@ -36,8 +36,8 @@
   </head>
 
   <body>
-    <!-- Begin Fixed navbar -->
-    <nav class="navbar navbar-inverse navbar-fixed-top navbaroverride">
+  <!-- Begin Fixed navbar -->
+    <nav role="navigation" class="navbar navbar-inverse navbar-fixed-top navbaroverride">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -50,30 +50,42 @@
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="/about.html">About Us</a></li>
-            <li><a href="/issues.html">Issues</a></li>
-            <li><a href="/counties.html">Counties</a></li>
-            <li><a href="/media.html">Media Center</a></li>
-            <li><a href="/volunteer.html">Volunteer</a></li>
-            <li><a href="#contact">Contact Us</a></li>
-            <li class="dropdown">
+            <li class="nav-item active"><a href="/about.html">About Us</a></li>
+            <li class="nav-item">
+              <a class="nav-link" href="/issues.html">Issues</a></li>
+            <li class="nav-item disabled">
+              <a class="nav-link" href="/counties.html">Counties</a></li>
+            <li class="nav-item disabled">
+              <a class="nav-link" href="/media.html">Media Center</a></li>
+            <li class="nav-item disabled">
+              <a class="nav-link" href="/volunteer.html">Volunteer</a></li>
+            <li class="nav-item disabled">
+              <a class="nav-link" href="#contact">Contact Us</a></li>
+            <li class="nav-item dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">More... <span class="caret"></span></a>
               <ul class="dropdown-menu">
                 <!--<li><a href="/contact.html">Contact Us</a></li>-->
-                <li><a href="/thoughts.html">Thoughts</a></li>
+                <li><a class="nav-link disabled" href="/thoughts.html">Thoughts</a></li>
               </ul>
             </li>
-            <li><a href="https://www.facebook.com/makingapublic/"><span class="fa fa-facebook-square" aria-hidden="true"></span></a></li>
-            <li><a href="#"><span class="fa fa-instagram" aria-hidden="true"></span></a></li>
-            <li><a href="https://www.twitter.com/DirkDeam"><span class="fa fa-twitter-square" aria-hidden="true"></span></a></li>
-            <li><a href="#"><span class="fa fa-youtube-square" aria-hidden="true"></span></a></li>
-            <li class="text-left"><a href="#donate"><button type="button" class="btn btn-sm btn-primary">CONTRIBUTE</button></a></li>
+          </ul>
+          <ul class="nav navbar-nav mr-sm-2">
+            <li>
+              <a href="https://www.facebook.com/makingapublic/"><span class="fa fa-facebook-square" aria-hidden="true"></span></a></li>
+            <li>
+              <a href="#"><span class="fa fa-instagram" aria-hidden="true"></span></a></li>
+            <li>
+              <a href="https://www.twitter.com/DirkDeam"><span class="fa fa-twitter-square" aria-hidden="true"></span></a></li>
+            <li>
+              <a href="#"><span class="fa fa-youtube-square" aria-hidden="true"></span></a></li>
+            <li class="disabled">
+              <a href="/donate.html"><button type="button" class="btn btn-outline-success my-2 my-sm-0">CONTRIBUTE</button></a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
     </nav>
     <!-- End Fixed navbar -->
-
+    
     <div class="container theme-showcase containeroverride" role="main">
 
       <div class="jumbotron jumbotronoverride">
