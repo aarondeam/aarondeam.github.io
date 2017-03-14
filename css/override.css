@@ -34,12 +34,12 @@
 } */
 
 /* Centering the navbar */
-.navbar .navbar-nav {
+.navbaroverride .navbar-nav {
   display: inline-block;
   float: none;
   vertical-align: top;
 }
 
-.navbar .navbar-collapse {
+.navbaroverride .navbar-collapse {
   text-align: center;
 }
