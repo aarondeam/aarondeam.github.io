@@ -29,6 +29,7 @@
   background: #d39600;
 } */
 
-p {
+/* p {
   font-size: 1.2em
-}
+} */
+body { font-size: 120%; }
