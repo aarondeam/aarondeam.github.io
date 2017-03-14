@@ -25,21 +25,6 @@
   background-color: #E9E9E9
 }
 
-.paypalText {
-  width: 85%
-}
-
 /* .welloverride {
   background: #d39600;
 } */
-
-/* Centering the navbar */
-.navbaroverride .navbar-nav {
-  display: inline-block;
-  float: none;
-  vertical-align: top;
-}
-
-.navbaroverride .navbar-collapse {
-  text-align: center;
-}
